@@ -1,0 +1,13 @@
+drop:
+	promo_price column
+	duplicates
+	all 45 rows with empty price (NaN)
+	
+price column:
+	for all prices with 2 points ".": remove the points and divide by 100000	
+	
+change type:
+	type-column to float
+	price-column to float with 2 decimal digits
+	
+copy name to empty desc fields

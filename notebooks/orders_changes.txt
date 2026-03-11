@@ -1,0 +1,5 @@
+Drop : 
+	5 rows with total_paid Null
+
+change type:
+	created_date to datetime

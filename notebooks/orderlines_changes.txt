@@ -1,0 +1,6 @@
+drop:
+	product_id column -> its not used
+
+change type:
+	orderlines_date column to datetime
+	unit_price column by removing the points "."
